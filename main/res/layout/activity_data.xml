@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF2CA"
+    tools:context=".DataActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TableLayout
+        android:id="@+id/dataTable"
+        android:layout_width="363dp"
+        android:layout_height="294dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryText">
+
+        <TableRow
+            android:id="@+id/temp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/trTemp"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:text="@string/temp_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/trTempData"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/feel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/trFeel"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:text="@string/feel_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/trFeelData"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/low"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/trLow"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:text="@string/low_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/trLowData"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/high"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/trHigh"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:text="@string/high_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/trHighData"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Wind"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/trWind"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:text="@string/wind_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/trWindData"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/humidity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/trHumid"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:text="@string/humid_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/trHumidData"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/pressure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/trPress"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:text="@string/press_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/trPressData"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/lat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/trLat"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:text="@string/lat_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/trLatData"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/lon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/trLon"
+                android:layout_width="177dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:text="@string/lon_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/trLonData"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#D5E0A3"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/locName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/loc_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newSearch" />
+
+    <TextView
+        android:id="@+id/nameZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/author_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/newSearch"
+        android:layout_width="83dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#AAC360"
+        android:onClick="homeView"
+        android:text="@string/back_name"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/countryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/loc_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locName" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="363dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataTable" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
